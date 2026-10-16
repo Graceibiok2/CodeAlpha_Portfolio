@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <a href="/">Grace Ibiok</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-square-github"></i>
+                <span>GitHub</span>
+            </a>
+
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-square-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="mailto:abcd@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav> 
+
+    <main>
+        
+         <section class="hero-section">
+            <div class="text">
+                <h2>Hello, I'm Grace </h2>
+               
+             <p>Hi, I'm currently a Computer Science undergraduate and front end development intern at CodeAlpha. I'm building my foundation in HTML, CSS and JavaScript, and I enjoy creating clean, responsive web pages. I'm early in my career and focused on learning quickly, and I'm currently picking up JavaScript. I'm always open to internship and apprentiship opportunities where I can learn from experienced teams and contribute to real projects.</p>
+            <div class="links">
+                <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#project">
+                    <i class="fa-solid fa-pen"></i>
+                    <span>Projects</span>
+                </a>
+                <a href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Contact</span>
+                </a>
+                 <a href="cv.pdf" download="GRACE CV.doc" onclick=" return confirm ('Download CV?')">
+                   <i class="fa-solid fa-circle-arrow-down"></i>
+                     <span>Download CV</span>
+                 </a>
+            </div>
+            </div>
+            <div class="headshot">
+                <img src="/portfolio/images/headshot.jpg" alt="Grace Ibiok Headshot">
+            </div>
+         </section>
+
+        
+         <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+              I build the structure and style of web pages using HTML and CSS, focusing on clean layouts. I'm actively improving my skills in responsive design, so pages work well on phones, tablets and desktop screens. I'm also developing my JavaScript skills to add interactivity, such as popups and dynamic features.
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html-logo.webp" alt="HTML Logo">
+                    <span>HTML</span> 
+                </div>
+
+                 <div class="cell">
+                    <img src="images/css-logo.webp" alt="CSS Logo">
+                    <span>CSS</span> 
+                </div>
+
+                 <div class="cell">
+                    <img src="images/javascript-logo.webp" alt="JavaScript Logo">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+         </section>
+
+          
+         <section id="project" class="project-section">
+             <h2>Projects</h2>
+
+             <div class="group">
+
+
+                </div>
+                <div class="text">
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi quisquam modi saepe! Numquam quisquam distinctio vel labore commodi doloribus tenetur, eligendi ducimus delectus dolorum. Molestias incidunt inventore tempore molestiae error."
+                </div>
+             </div>
+         </section>
+
+         
+         <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    Have a question, an opportunity or just want to say hello? Send me a message using the form and I'll get back to you as soon as I can. You can also find me on GitHub and LinkedIn, or email me directly.
+                  <div class="icons">  
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" title="GitHub" >
+                <i class="fa-brands fa-square-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn" >
+                <i class="fa-brands fa-square-linkedin"></i>
+            </a>
+            <a href="mailto:abcd@gmail.com" title="Send an Email">
+                <i class="fa-solid fa-envelope"></i>
+             </a>
+            </div>
+                </div>
+          
+             
+              
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email"  name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" name="message" required></textarea>
+
+                     <input type="checkbox" name="botcheck" style="display: none;" tabindex="-1" autocomplete="off">
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+         </section>
+    </main>
+</body>
+</html>
